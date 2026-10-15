@@ -1,0 +1,48 @@
+# ===== SEGREDOS / CHAVES DE API (o mais importante) =====
+.env
+.env.*
+!.env.example
+config.php
+config.local.php
+secrets.*
+*.key
+*.pem
+credentials.json
+service-account*.json
+
+# ===== BANCO DE DADOS LOCAL / BACKUPS =====
+*.sqlite
+*.sqlite3
+*.db
+*.sql.bak
+*.dump
+
+# ===== PHP / XAMPP =====
+/vendor/
+composer.phar
+*.log
+error_log
+/uploads/
+
+# ===== NODE / JAVASCRIPT =====
+node_modules/
+npm-debug.log*
+yarn-error.log
+dist/
+build/
+.next/
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# ===== EDITORES / SISTEMA =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
